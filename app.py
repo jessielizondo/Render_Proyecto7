@@ -5,7 +5,7 @@ import streamlit as st
 
 
 # Cargar datos
-car_data = pd.read_csv(r'C:\Users\Dell\Documents\Data Science Program\Sprint 7\Directorio Principal\Render_Proyecto7\vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 car_data["condition"] = car_data["condition"].astype(str)
 
 # Título
